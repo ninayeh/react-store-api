@@ -2,10 +2,10 @@
   "products": [
     {
       "id": 1,
-      "name": "Air Jordan 5",
-      "price": "59440",
-      "tags": "92 ",
+      "name": "Air Jordan 4",
       "image": "/images/1.jpg",
+      "tags": "92 ",
+      "price": "59440",
       "status": "available"
     },
     {
@@ -14,7 +14,7 @@
       "image": "/images/2.jpg",
       "tags": "25 Colors",
       "price": "53800",
-      "status": "unavailable"
+      "status": "available"
     },
     {
       "id": 3,
@@ -95,56 +95,35 @@
       "tags": "",
       "image": "/images/12.jpg",
       "id": 12
-    },
-    {
-      "name": "Test product",
-      "price": "100",
-      "tags": "Good",
-      "image": "/images/4.jpg",
-      "status": "available",
-      "id": 13
-    },
-    {
-      "id": 14,
-      "name": "Nina Nina",
-      "price": "222",
-      "tags": "Nice",
-      "image": "/images/2.jpg",
-      "status": "available"
-    },
-    {
-      "name": "Air Jordan 3",
-      "price": "500",
-      "tags": "Aww",
-      "image": "/images/7.jpg",
-      "status": "available",
-      "id": 15
-    },
-    {
-      "name": "Nike Zoom Kobe 1",
-      "price": "400",
-      "tags": "12 colors",
-      "image": "/images/8.jpg",
-      "status": "available",
-      "id": 16
     }
   ],
   "carts": [
     {
-      "productId": 1,
-      "name": "Air Jordan 5",
-      "image": "/images/1.jpg",
-      "price": "59440",
-      "mount": 3,
-      "id": 1
+      "productId": 3,
+      "name": "Jordan Why Not Zer0.2",
+      "image": "/images/3.jpg",
+      "price": "48900",
+      "mount": 1,
+      "id": 4,
+      "userId": "admin@163.com"
     },
     {
-      "productId": 7,
-      "name": "Nike Hyperdunk X(2018)",
-      "image": "/images/7.jpg",
-      "price": "54600",
-      "mount": 3,
-      "id": 3
+      "productId": 6,
+      "name": "Nike Zoom Kobe 1",
+      "image": "/images/6.jpg",
+      "price": "80391",
+      "mount": 1,
+      "userId": "admin@163.com",
+      "id": 5
+    },
+    {
+      "productId": 12,
+      "name": "Air Jordan 3",
+      "image": "/images/12.jpg",
+      "price": "44900",
+      "mount": 1,
+      "userId": "admin@163.com",
+      "id": 6
     }
   ]
 }
