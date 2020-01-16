@@ -2,16 +2,16 @@
   "users": [
     {
       "id": 1,
-      "nickname": "admin",
-      "email": "admin@163.com",
+      "nickname": "Admin",
+      "email": "admin@react.com",
       "password": "123123123",
       "type": 1
     },
     {
       "id": 2,
-      "email": "nina@163.com",
+      "email": "test@react.com",
       "password": "123123123",
-      "nickname": "Nina",
+      "nickname": "Guest",
       "type": 0
     }
     
