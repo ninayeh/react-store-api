@@ -137,10 +137,12 @@ const verifyToken = token => {
     decode !== undefined ? decode : err
   );
 };
+
+const port = process.env.PORT || 4000;
   
 
 server.use(router);
-server.listen(4000, () => {
+server.listen(port, () => {
   console.log("JSON Server is running");
 });
 
